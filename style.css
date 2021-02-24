@@ -1,0 +1,173 @@
+body{
+    background-image: url(13614.png);
+    background-attachment: fixed;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    background-color: #03224C;
+}
+
+nav li{
+    display: inline-block;
+    width: 19%;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav li :hover{
+    background-color: #3388BB;
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titre{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.menuderoulant > a::after{
+    content: " ▼";
+    font-size: 12px;
+}
+
+.sous{
+    display:none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: rgba(200,200,200,0.1);
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.bienvenue{
+    text-align: center;
+    position: relative;
+    bottom: 270px;
+    color: red ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bjoin{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.bjoin:active{
+    position: relative;
+    top: 7px;
+}
+
+
+.acc{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    text-align: center;
+}
+
+.mention{
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+}
+
+.addontxt{
+    text-align: center;
+    font-size: 110%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+}
+
+.addontxt2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.addondownload{
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.addondownload:hover{
+    position: relative;
+    left: 10px;
+}
+
+.screenshot{
+    text-align: center;
+}
+
+.logobas :hover{
+    width: 100px;
+}
+
+.logobas :active{
+    width: 70px;
+}
+
+.accq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 130%;
+    text-align: left;
+}
+
+.petit{
+    font-size: 85%;
+}
+
+.men{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    text-align: left;
+}
